@@ -52,7 +52,6 @@ export default {
                        ...res.data.data,
                        price:price.data?.price || 0
                     }
-                    console.log(this.infoProduct);
                 }
                 else{
                     this.infoProduct.price=price.data?.price || 0

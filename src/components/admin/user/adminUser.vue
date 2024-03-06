@@ -72,7 +72,6 @@ export default {
     openFormEdit(user){
       this.activeEdit=true
       this.id=user.id
-      console.log(user);
     },
     closeEdit(){
       this.activeEdit=false
